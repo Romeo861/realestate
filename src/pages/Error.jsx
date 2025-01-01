@@ -8,7 +8,7 @@ const ErrorPage = () => {
       <Link to='/' className='error__logo'>
         <img
           src='https://codesolution365.com/wp-content/uploads/2021/07/cropped-cs365-logo-1.png'
-          alt='logo'
+          alt=''
           width={"200px"}
           style={{ marginTop: "20px", marginBottom: "10px" }}
         />
