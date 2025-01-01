@@ -5,14 +5,14 @@ import "./Error.scss";
 const ErrorPage = () => {
   return (
     <div className='error'>
-      {/* <img
-      //* <Link to='/' className='error__logo'>
-          src='https://static.rdc.moveaws.com/images/logos/rdc-logo-default.svg'
+      <Link to='/' className='error__logo'>
+        <img
+          src='https://codesolution365.com/wp-content/uploads/2021/07/cropped-cs365-logo-1.png'
           alt='logo'
           width={"200px"}
           style={{ marginTop: "20px", marginBottom: "10px" }}
         />
-      </Link> */}
+      </Link>
       <h2 className='error__title'>Looking for something?</h2>
       <p className='error__para'>
         We're sorry. The Web address you entered is not a functioning page on
