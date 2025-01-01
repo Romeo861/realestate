@@ -34,6 +34,14 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: "realestate",
+        element: (
+          <Suspense fallback={<FallbackSpinner />}>
+            <Home />
+          </Suspense>
+        ),
+      },
+      {
         path: "profile",
         element: <PrivateRoute />,
         children: [
