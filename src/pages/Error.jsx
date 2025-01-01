@@ -6,12 +6,12 @@ const ErrorPage = () => {
   return (
     <div className='error'>
       <Link to='/' className='error__logo'>
-        <img
+        {/* <img
           src='https://static.rdc.moveaws.com/images/logos/rdc-logo-default.svg'
           alt='logo'
           width={"200px"}
           style={{ marginTop: "20px", marginBottom: "10px" }}
-        />
+        /> */}
       </Link>
       <h2 className='error__title'>Looking for something?</h2>
       <p className='error__para'>
